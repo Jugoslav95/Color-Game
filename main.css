@@ -1,0 +1,93 @@
+body {
+    background: url(img1.jpg);
+    overflow: hidden;
+}
+
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#colorOne {
+    left: 90px;
+    top: 140px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(48, 0, 54);
+    margin: 25px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.568);
+    /* border: 2px solid rgb(51, 51, 51); */
+}
+
+#colorTwo {
+    right: 90px;
+    top: 140px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 102, 255);
+    margin: 25px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.938);
+    /* border: 2px solid rgb(51, 51, 51); */
+}
+
+button {
+    color: white;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(137, 102, 219);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: background 0.5s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(126, 44, 151);
+}
+
+button:active {
+    cursor: pointer;
+    background-color: rgb(232, 129, 253);
+}
+
+#output {
+    top: 560px;
+    position: absolute;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(32, 32, 32);
+}
+
+#level {
+    color: rgb(32, 32, 32);
+    font-size: 60px;
+}
+
+.secondCont {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 70px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.568);
+    border-radius: 5px;
+}
+
+.buttonGroup {
+    top: 450px;
+    position: absolute;
+}
