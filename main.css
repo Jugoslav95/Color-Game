@@ -1,6 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background: url(img1.jpg);
-    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
 }
 
 .mainContainer {
@@ -90,4 +99,25 @@ button:active {
 .buttonGroup {
     top: 450px;
     position: absolute;
+}
+
+@media only screen and (max-width: 500px) {
+    .secondCont {
+        height: 500px;
+        width: 60%;
+    }
+
+    #colorOne {
+        left: 50px;
+        top: 160px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    #colorTwo {
+        right: 50px;
+        top: 160px;
+        width: 150px;
+        height: 150px;
+    }
 }
