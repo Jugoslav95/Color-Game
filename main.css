@@ -120,4 +120,8 @@ button:active {
         width: 150px;
         height: 150px;
     }
+   
+       .buttonGroup {
+        top: 380px;
+    }
 }
